@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="fonts/Calisto-MT-Bold.ttf">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body onload="hello()">
+    <section class="mainbacground">
+        <div class="overly-back" >
+            <div class="menu-items">
+                <button id="mene-corse">x</button>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li id="login-form"><a href="#">Review Form</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="form-back">
+            <div class="menu-itemss" >
+                <button id="mene-corse-login">x</button>
+                <div class="container">
+                    <h1>Review Form</h1>
+                    <form action="">
+                        <div class="form-group">
+                            <label for="username">Name</label>
+                            <input type="text" id="username" required name="Name" placeholder="Enter your username">
+                        </div>
+                        <div class="form-group">
+                            <label for="Email">Email Id (optional)</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="rating">Rating</label>
+                            <select required id="select">
+                                <option value="Not select">Give Rating</option>
+                                <option value="0">0</option>
+                                <option value="5">5</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="comment">Comment</label>
+                            <input type="text" id="comment" name="Comment" placeholder="Drop a comment">
+                        </div>
+                        <input id="button" type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="overly" data-aos="fade-in"></div>
+        <div class="maincontainer" data-aos="fade-up">
+            <header data-aos="fade-down">
+                <div class="leftlogo">
+                    <img src="images/site-logo.png" alt="">
+                </div>
+                <div id="menu-btn" style="font-size: 30px; color: white;" class="rightmenu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </header>
+            <div class="contant-box" data-aos="zoom-in">
+                <div class="containe-img" data-aos="fade-right">
+                    <img height="100%" width="100%" src="images/DSC_0111.jpg" alt="">
+                </div>
+                <div class="containt-text" data-aos="fade-left">
+                    <div class="contant-center-box">
+                        <div class="contant-box-1" data-aos="fade-up">
+                            <p style="color: #c18f59;">Hello! I'm</p>
+                            <h1>Siyaram</h1>
+                        </div>
+                        <div class="contant-box-2" data-aos="fade-up">
+                            <h1>Sharma</h1>
+                            <p style="color: #c18f59;"><span>MERN stack Developer</span></p>
+                        </div>
+                        <div style="line-height: 50px;" data-aos="fade-up">
+                            <p style="color: #777;">One Man. One Mission. Can He Go Beyond?</p>
+                            <button>Read Bio</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="white-second-bacground">
+        <div class="maincontainer" data-aos="fade-up">
+            <div class="about-conainer">
+                <article class="portfo-box" data-aos="zoom-in">
+                    <div>
+                        <div class="portfo-box-text">
+                            <img width="100%" src="images/IMG_20240808_145832.jpg" alt="" data-aos="fade-left">
+                            <div class="img-box-text" data-aos="fade-right">
+                                <h1>Siyaram Sharma</h1>
+                                <p>My Name is Siyaram Shama H and I am a Marn Stack web developer and currently studying.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <div class="about-tex" data-aos="fade-up">
+                    <div>
+                        <h1>About me</h1>
+                        <p><span style="font-size: 60px; color: white;">H</span>i, I'm Siyaram Sharma, a passionate and skilled MERN stack web developer. With a deep understanding of both front-end and back-end technologies, I specialize in creating dynamic, responsive, and user-friendly web applications. My expertise in MongoDB, Express.js, React, and Node.js allows me to build seamless and efficient solutions that meet modern web development standards.
+    
+                        Whether you're looking to develop a new project from scratch or need help optimizing an existing application, I'm here to deliver high-quality results that align with your goals. Let's work together to bring your ideas to life on the web!.</p> <br>
+                        <h2>Author</h2>
+                        <p>See More</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-me-bckg" data-aos="fade-down"></div>
+    </section>
+    
+
+    <section id="books-section">
+        <div class="maincontainer" data-aos="fade-up" data-aos-duration="1000">
+            <div class="books-center-text" data-aos="fade-down" data-aos-delay="200">
+                <h2>My Projects</h2>
+            </div>
+            <div class="books-row">
+                <div class="books-box" data-aos="flip-left" data-aos-delay="300">
+                    <div style="overflow: hidden;" class="over-flow">
+                        <a href="project/bearky web/index.html">
+                            <div class="books-overly-contant" data-aos="fade-in" data-aos-delay="500"> </div>
+                        </a>
+                        <a href="project/bearky web/index.html">
+                            <img src="images/books-1.jpg" alt="" data-aos="zoom-in" data-aos-delay="600">
+                        </a>
+                    </div>
+                    <h4 data-aos="fade-up" data-aos-delay="700">BAKKERY WEB</h4>
+                    <div data-aos="fade-in" data-aos-delay="800">
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="books-box" data-aos="flip-left" data-aos-delay="400">
+                    <div class="over-flow">
+                        <a href="project/dr website/index.html">
+                            <div class="books-overly-contant" data-aos="fade-in" data-aos-delay="600"> </div>
+                        </a>
+                        <a href="project/dr website/index.html">
+                            <img src="images/books-2.jpg" alt="" data-aos="zoom-in" data-aos-delay="700">
+                        </a>
+                    </div>
+                    <h4 data-aos="fade-up" data-aos-delay="800">HELTH WEB</h4>
+                    <div data-aos="fade-in" data-aos-delay="900">
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="books-box" data-aos="flip-left" data-aos-delay="500">
+                    <div class="over-flow">
+                        <a href="project/cafe/index.html">
+                            <div class="books-overly-contant" data-aos="fade-in" data-aos-delay="700"> </div>
+                        </a>
+                        <a href="project/cafe/index.html">
+                            <img src="images/books-3.jpg" alt="" data-aos="zoom-in" data-aos-delay="800">
+                        </a>
+                    </div>
+                    <h4 data-aos="fade-up" data-aos-delay="900">CAFE WEB</h4>
+                    <div data-aos="fade-in" data-aos-delay="1000">
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="books-box" data-aos="flip-left" data-aos-delay="600">
+                    <div class="over-flow">
+                        <a href="project/gift shop/index.html">
+                            <div class="books-overly-contant" data-aos="fade-in" data-aos-delay="800"> </div>
+                        </a>
+                        <a href="project/gift shop/index.html">
+                            <img src="images/books-4.jpg" alt="" data-aos="zoom-in" data-aos-delay="900">
+                        </a>
+                    </div>
+                    <h4 data-aos="fade-up" data-aos-delay="1000">GIFT SHOP WEB</h4>
+                    <div data-aos="fade-in" data-aos-delay="1100">
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="books-center-text" data-aos="fade-up" data-aos-delay="1200">
+                <button id="view-more-btn">View more</button>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="book-side">
+        <div class="maincontainer" data-aos="fade-up" data-aos-duration="1000">
+            <div class="books-side-row">
+                <div class="books-row-side-text" data-aos="fade-right" data-aos-delay="200">
+                    <h1 class="demo">00</h1>
+                    <div>
+                        <span>
+                            <h3>BOOKS</h3>
+                        </span>
+                    </div>
+                </div>
+                <div class="books-row-side-text" data-aos="fade-right" data-aos-delay="400">
+                    <h1 class="demo">00</h1>
+                    <div>
+                        <span>
+                            <h3>PAGES</h3>
+                        </span>
+                    </div>
+                </div>
+                <div class="books-row-side-text" data-aos="fade-right" data-aos-delay="600">
+                    <h1 class="demo">00</h1>
+                    <div>
+                        <span>
+                            <h3>SALES</h3>
+                        </span>
+                    </div>
+                </div>
+                <div class="books-row-side-text" data-aos="fade-right" data-aos-delay="800">
+                    <h1 class="demo">00</h1>
+                    <div>
+                        <span>
+                            <h3>AWARDS</h3>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Blog Slider -->
+    <section style="padding: 0px 20px;">
+        <div class="books-center-text" data-aos="fade-down" data-aos-delay="200">
+            <h2>My Blog</h2>
+        </div>
+    
+        <div class="slider-container" data-aos="fade-up" data-aos-delay="400">
+            <div class="slider">
+                <div class="slide" id="slide1" data-aos="zoom-in" data-aos-delay="600">
+                    <div>
+                        <img src="images/blog1.jpg" alt="">
+                    </div>
+                    <div class="blog-text" data-aos="fade-up" data-aos-delay="800">
+                        <h3>The Journey Under the Waves</h3>
+                        <p style="color: #c18f59;">On August 28, 2015</p>
+                        <p>Quisque vel sapien nec lacus adipiscing bibendum nullam porta lites laoreet aliquam. Velitest, tempus a ullamcorper et, lacinia mattis mi. Cras arcu nulla, blandit id cursus et, ultricies eu leo.</p>
+                    </div>
+                </div>
+    
+                <div class="slide" id="slide3" data-aos="zoom-in" data-aos-delay="700">
+                    <div>
+                        <img src="images/blog2.jpg" alt="">
+                    </div>
+                    <div class="blog-text" data-aos="fade-up" data-aos-delay="900">
+                        <h3 style="color: #c18f59;">The Journey Under the Waves</h3>
+                        <p style="color: #c18f59;">On August 28, 2015</p>
+                        <p>Quisque vel sapien nec lacus adipiscing bibendum nullam porta lites laoreet aliquam. Velitest, tempus a ullamcorper et, lacinia mattis mi. Cras arcu nulla, blandit id cursus et, ultricies eu leo.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div>
+                <button class="prev" onclick="prevSlide()" data-aos="fade-right" data-aos-delay="1000">&#10094;</button>
+                <button class="next" onclick="nextSlide()" data-aos="fade-left" data-aos-delay="1000">&#10095;</button>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="quots-section">
+        <div class="maincontainer" data-aos="fade-up" data-aos-duration="1000">
+            <div class="quots-mian-box">
+                <div class="books-center-text" data-aos="fade-down" data-aos-delay="200">
+                    <h2>What People Are Saying</h2>
+                </div>
+                <div class="quots-pera" data-aos="fade-right" data-aos-delay="400">
+                    <p>"Working with Siyaram Sharma has been an incredible experience. His expertise in MERN stack development is evident in the quality of his work. Clients and colleagues alike have praised his ability to understand project requirements and deliver solutions that exceed expectations.
+    
+                        From startups to established businesses, everyone appreciates Siyaram’s commitment to timely delivery, clear communication, and a collaborative approach. Whether it's building a complex web application or refining an existing project, Siyaram consistently earns high praise for his technical skills and professionalism."</p>
+                </div>
+                <img src="images/quotes.svg" alt="" data-aos="zoom-in" data-aos-delay="600"> <br>
+                <h3 style="color: #c18f59;" data-aos="fade-up" data-aos-delay="800">Siyaram Sharma</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="social-bock">
+        <div class="maincontainer" data-aos="fade-up" data-aos-duration="1000">
+            <div class="main-social-contant-box">
+                <div class="social-box" data-aos="fade-right" data-aos-delay="200">
+                    <a href="#">
+                        <h2>Follow Me</h2>
+                    </a>
+                </div>
+                <div class="social-box" data-aos="zoom-in" data-aos-delay="400">
+                    <a title="twitter" href="https://x.com/siyaram07038090?t=6Fp1jAVxxIiMWe0RdfZgZw&s=09"><i class="fa-brands fa-twitter"></i></a>
+                    <a title="facebook" href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a title="youtube" href="https://www.youtube.com/@code_guru_java"><i class="fa-brands fa-youtube"></i></a>
+                    <a title="instagram" href="https://www.instagram.com/cutie_boyy_?igsh=amRpNjk1MWFzd2I="><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="social-box" data-aos="fade-left" data-aos-delay="600">
+                    <a href="#">
+                        <h2>Share It</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="footer-section">
+        <div class="maincontainer">
+            <div class="footer-row">
+                <div class="footer-about-row">
+                    <div>
+                        <a href=""> <img class="tuch-img" src="images/footer-img.jpg" alt=""></a>
+                    </div>
+                    <div>
+                        <h3>Get In Touch</h3>
+                        <p>Phone: +91 8955580712</p>
+                        <p>Email: siyaramsharmask@gmail.com</p>
+                        <div class="social-box">
+                            <a title="twitter" href="https://x.com/siyaram07038090?t=6Fp1jAVxxIiMWe0RdfZgZw&s=09"><i class="fa-brands fa-twitter"></i></a>
+                            <a title="facebook" href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a title="youtube" href="https://www.youtube.com/@code_guru_java"><i class="fa-brands fa-youtube"></i></a>
+                            <a title="instagram" href="https://www.instagram.com/cutie_boyy_?igsh=amRpNjk1MWFzd2I="><i class="fa-brands fa-instagram"></i></a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="contant-form">
+                    <div style="display: block;">
+                    </div>
+                    <form action="" autocomplete="off" method="post" name="google-sheet">
+                        <div class="input1">
+                            <input class="form-input" name="Name" type="text" placeholder="&nbsp; &nbsp; &nbsp;Name" required>
+                            <input class="form-input" name="Email" type="email" placeholder=" &nbsp; &nbsp; &nbsp;Email (Not Compulsory)">
+                        </div> <br>
+                        <textarea style="padding-top:20px;" name="Comment" id="textarea" placeholder="&nbsp; &nbsp; &nbsp; Drop Your Cmment"></textarea>
+                        <input id="button" type="submit" value="sand" name="Comment">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="loder"></div>
+    <script src="app.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyRdwAmuyZqw72VeRbTBCxS_E9FR89DAn_ELY1UAreXQIh5qZe83wVJOf0Gon-5_kWq/exec';
+        const form = document.forms['google-sheet'];
+        const loader = document.querySelector('.loder'); // Select your loader element
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            loader.style.display = 'block'; // Show the loader
+
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    alert("Thanks for Contacting us..! We Will Contact You Soon...");
+                    loader.style.display = 'none'; // Hide the loader
+                })
+                .catch(error => {
+                    console.error('Error!', error.message);
+                    loader.style.display = 'none'; // Hide the loader in case of an error
+                });
+        });
+    </script>
+
+
+
+<script>
+    AOS.init();
+</script>
+
+
+</body>
+
+</html>
